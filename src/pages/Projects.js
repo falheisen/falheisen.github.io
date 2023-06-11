@@ -1,9 +1,8 @@
 import "../index.css";
 import Header from "../composants/Header";
 import Navbar from "../composants/Navbar";
-import Curriculo from "../images/Filipe Penna Ceravolo Soares.pdf";
 
-function CV() {
+function Travels() {
   return (
     <>
       <Header />
@@ -12,16 +11,11 @@ function CV() {
         <Navbar />
 
         <div className="Page">
-          <iframe
-            src={Curriculo}
-            height={"680vh"}
-            width={"999vw"}
-            frameborder="10"
-          ></iframe>
+          <h1>Soon...</h1>
         </div>
       </div>
     </>
   );
 }
 
-export default CV;
+export default Travels;

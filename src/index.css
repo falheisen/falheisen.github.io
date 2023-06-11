@@ -99,7 +99,7 @@ code {
   display: flex;
   flex-direction: row;
   background-color:black;
-  gap: 2rem;
+  /* gap: 2rem; */
   padding: 1vh 5vw;
   /* top, right, bottom, left */
   justify-content: flex-end;
@@ -163,4 +163,5 @@ code {
   display: flex;
   flex-direction: row;
   align-content: flex-start;
+  gap: 2vw;
 }

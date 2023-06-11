@@ -6,6 +6,7 @@ import Music from "./pages/Music.js";
 import CV from "./pages/CV";
 import Contact from "./pages/Contact";
 import Travels from "./pages/Travels";
+import Projects from "./pages/Projects";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/Contact" element={<Contact />} />
       <Route path="/Music" element={<Music />} />
       <Route path="/Travels" element={<Travels />} />
+      <Route path="/Projects" element={<Projects />} />
     </Routes>
   );
 }

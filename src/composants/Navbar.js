@@ -12,6 +12,10 @@ function Navbar() {
       </div>
 
       <div className="Navbar-item">
+        <a href="/Projects">Projects</a>
+      </div>
+
+      <div className="Navbar-item">
         <a href="/Music">Music</a>
       </div>
 
