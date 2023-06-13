@@ -45,7 +45,8 @@ function Contact() {
         <Navbar />
 
         <div className="Page">
-          <form onSubmit={handleSubmit}>
+          <h1>Soon...</h1>
+          {/* <form onSubmit={handleSubmit}>
             <label htmlFor="name">Name:</label>
             <input
               type="text"
@@ -73,7 +74,7 @@ function Contact() {
             ></textarea>
             <br />
             <button type="submit">Submit</button>
-          </form>
+          </form> */}
         </div>
       </div>
     </>

@@ -19,9 +19,9 @@ function Navbar() {
         <a href="/personal-page/Music">Music</a>
       </div>
 
-      <div className="Navbar-item">
+      {/* <div className="Navbar-item">
         <a href="/personal-page/Travels">Travels</a>
-      </div>
+      </div> */}
 
       <div className="Navbar-item">
         <a href="/personal-page/Contact">Contact</a>

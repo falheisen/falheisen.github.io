@@ -1,7 +1,7 @@
 import "../index.css";
 import Header from "../composants/Header";
 import Navbar from "../composants/Navbar";
-import Curriculo from "../images/Filipe Penna Ceravolo Soares.pdf";
+import Curriculo from "../images/20230613 - CV Filipe Penna Ceravolo Soares.pdf";
 
 function CV() {
   return (
