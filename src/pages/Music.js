@@ -46,6 +46,7 @@ function Spotify() {
               <iframe src={musicLATAM} height="400px"></iframe>
 
               <iframe
+                title="Playlist Latin American music"
                 style={{ borderRadius: "12px" }}
                 src="https://open.spotify.com/embed/playlist/0fFgvEOgZd5XBnDs02Ed4F?utm_source=generator&theme=0"
                 // width="100%"

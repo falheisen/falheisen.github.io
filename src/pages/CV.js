@@ -13,6 +13,7 @@ function CV() {
 
         <div className="Page">
           <iframe
+            title="CV"
             src={Curriculo}
             height={"680vh"}
             width={"999vw"}
