@@ -11,12 +11,12 @@ import Projects from "./pages/Projects";
 function App() {
   return (
     <Routes>
-      <Route path="/personal-page" element={<About />} />
-      <Route path="/personal-page/CV" element={<CV />} />
-      <Route path="/personal-page/Contact" element={<Contact />} />
-      <Route path="/personal-page/Music" element={<Music />} />
+      <Route path="/" element={<About />} />
+      <Route path="/CV" element={<CV />} />
+      <Route path="/Contact" element={<Contact />} />
+      <Route path="/Music" element={<Music />} />
       {/* <Route path="/personal-page/Travels" element={<Travels />} /> */}
-      <Route path="/personal-page/Projects" element={<Projects />} />
+      <Route path="/Projects" element={<Projects />} />
     </Routes>
   );
 }

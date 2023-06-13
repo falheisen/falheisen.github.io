@@ -4,19 +4,19 @@ function Navbar() {
   return (
     <div className="Navbar">
       <div className="Navbar-item">
-        <a href="#/personal-page">About me</a>
+        <a href="">About me</a>
       </div>
 
       <div className="Navbar-item">
-        <a href="#/personal-page/CV">CV</a>
+        <a href="/#/CV">CV</a>
       </div>
 
       <div className="Navbar-item">
-        <a href="#/personal-page/Projects">Projects</a>
+        <a href="/#/Projects">Projects</a>
       </div>
 
       <div className="Navbar-item">
-        <a href="#/personal-page/Music">Music</a>
+        <a href="/#/Music">Music</a>
       </div>
 
       {/* <div className="Navbar-item">
@@ -24,7 +24,7 @@ function Navbar() {
       </div> */}
 
       <div className="Navbar-item">
-        <a href="#/personal-page/Contact">Contact</a>
+        <a href="/#/Contact">Contact</a>
       </div>
     </div>
   );
