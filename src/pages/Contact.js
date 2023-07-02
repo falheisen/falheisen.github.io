@@ -40,13 +40,10 @@ function Contact() {
   return (
     <>
       <Header />
-
-      <div className="Workspace">
-        <Navbar />
-
-        <div className="Page">
-          <h1>Soon...</h1>
-          {/* <form onSubmit={handleSubmit}>
+      <Navbar />
+      <div className="Page">
+        <h1>Soon...</h1>
+        {/* <form onSubmit={handleSubmit}>
             <label htmlFor="name">Name:</label>
             <input
               type="text"
@@ -75,7 +72,6 @@ function Contact() {
             <br />
             <button type="submit">Submit</button>
           </form> */}
-        </div>
       </div>
     </>
   );

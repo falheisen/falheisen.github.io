@@ -7,19 +7,15 @@ function CV() {
   return (
     <>
       <Header />
-
-      <div className="Workspace">
-        <Navbar />
-
-        <div className="Page">
-          <iframe
-            title="CV"
-            src={Curriculo}
-            height={"680vh"}
-            width={"999vw"}
-            frameborder="10"
-          ></iframe>
-        </div>
+      <Navbar />
+      <div className="Page">
+        <iframe
+          title="CV"
+          src={Curriculo}
+          height={"680vh"}
+          width={"999vw"}
+          frameborder="10"
+        ></iframe>
       </div>
     </>
   );

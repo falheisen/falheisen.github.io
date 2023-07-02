@@ -6,13 +6,10 @@ function Travels() {
   return (
     <>
       <Header />
+      <Navbar />
 
-      <div className="Workspace">
-        <Navbar />
-
-        <div className="Page">
-          <h1>Soon...</h1>
-        </div>
+      <div className="Page">
+        <h1>Soon...</h1>
       </div>
     </>
   );

@@ -1,5 +1,5 @@
 import "../index.css";
-import photo from "../images/FilipePenna.jpeg";
+import photo from "../images/FilipePenna.jpg";
 import SocialMedia from "./SocialMedia";
 
 function Header() {

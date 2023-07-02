@@ -21,8 +21,9 @@ code {
 .Workspace {
   display: flex;
   flex-direction: column;
-  margin-left: 17vw;
-  margin-right: 0vw;
+  position: absolute;
+  left: calc(200px + 40px);
+  width: calc(100vw - 240px);
 }
 
 .Header {
@@ -32,14 +33,15 @@ code {
   align-items: flex-start;
   justify-content: flex-start;
   color: white;
-  padding: 10vh 2vw 12vh 2vw;
+  padding: 40px 20px 40px 20px;
   /* top, right, bottom, left */
-  gap: 6vh;
-  width: 14vw;
-  height: 83vh;
+  gap: 40px;
+  width: 200px;
+  height: calc(100vh - 40px);
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1999;
 }
 
 .Header-title {
@@ -49,7 +51,7 @@ code {
 }
 
 .Header-image {
-  width: 12vw;
+  width: 160px;
   height: auto;
   border-radius: 50%;
   transform: scaleX(-1);
@@ -98,11 +100,19 @@ code {
 .Navbar {
   display: flex;
   flex-direction: row;
-  background-color:black;
-  /* gap: 2rem; */
-  padding: 1vh 5vw;
+  background-color:white;
+  /* background-color: #282c34; */
+  gap: 1vw;
+  position: fixed;
+  padding: 2px 5vw;
+  height: 50px;
   /* top, right, bottom, left */
   justify-content: flex-end;
+  align-items: center;
+  border-bottom: 1px solid #282c34;
+  left: calc(200px + 40px);
+  width: calc(100vw - 400px);
+  z-index: 2000;
 }
 
 .Navbar-item a {
@@ -115,7 +125,8 @@ code {
   font-size: 1rem;
   align-items: center;
   width: 6rem;
-  color: white;
+  /* color: white; */
+  color: black;
   text-decoration: None;
   border-radius: 12px;
   transition: box-shadow 0.1s ease-in-out;
@@ -128,8 +139,52 @@ code {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+.ProfExp {
+  padding: 2px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  gap: 10px;
+  width: 879px;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  
+}
+
+.ProfExp-above {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}  
+
+.ProfExp-logo {
+  /* height: 20px; */
+  width:60px;
+  padding: 10px;
+}
+
+.ProfExp-icon {
+  height: 20px;
+  /* width: 60px; */
+  padding: 10px;
+}
+
+.ProfExp-element {
+  width: 100px;
+  padding: 10px;
+}
+
+.ProfExp:hover{
+  background-color: #bdbdbd;
+}
+
 .Page {
-  padding: 1vh 0vw 0vh 3vw;
+  padding: 1px 25px 0vh 25px;
+  position: absolute;
+  top: 50px;
+  left: calc(200px + 40px);
+  width: calc(100vw - 240px);
   /* top, right, bottom, left */
 }
 
@@ -164,4 +219,24 @@ code {
   flex-direction: row;
   align-content: flex-start;
   gap: 2vw;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 700px) {
+  .Header {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: white;
+    padding: 40px 20px 40px 20px;
+    /* top, right, bottom, left */
+    gap: 40px;
+    width: 100px;
+    height: calc(100vh - 40px);
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
 }
